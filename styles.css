@@ -13,10 +13,10 @@ li {
 a {
   text-decoration: none;
 }
-/* .wrapper {
-  max-width: 1500px;
+.wrapper {
+  /* max-width: 1500px; */
   width: 100vw;
-} */
+}
 /* =========
 Navbar 
 ============
@@ -64,10 +64,13 @@ Hero
 */
 
 .hero-img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   text-align: center;
   position: relative;
+}
+.hero-img-container {
+  width: 100vw;
 }
 i {
   position: absolute;
