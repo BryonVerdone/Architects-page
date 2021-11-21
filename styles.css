@@ -17,6 +17,9 @@ a {
   /* max-width: 1500px; */
   width: 100vw;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* =========
 Navbar 
 ============
@@ -27,7 +30,6 @@ Navbar
   background: white;
   width: 100%;
   box-shadow: 6px 9px 25px 5px rgba(0, 0, 0, 0.56);
-  display: none;
 }
 .show-nav {
   display: block;
@@ -65,7 +67,6 @@ Hero
 
 .hero-img {
   width: 100%;
-  height: auto;
   text-align: center;
   position: relative;
 }
@@ -130,7 +131,7 @@ About
   width: 100vw;
 } */
 .about-text {
-  /* margin: 0 2rem; */
+  margin: 0 2rem;
   width: 100;
 }
 .about-grid {
@@ -159,6 +160,9 @@ About
 Contact  
 ============
 */
+.contact-text {
+  margin: 0 2rem;
+}
 .btn {
   border: none;
   width: 100%;
