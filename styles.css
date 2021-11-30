@@ -31,8 +31,8 @@ Navbar
   width: 100%;
   box-shadow: 6px 9px 25px 5px rgba(0, 0, 0, 0.56);
 }
-.show-nav {
-  display: block;
+.hide-nav {
+  display: none;
 }
 .navbar-container-left {
   float: left;
@@ -80,6 +80,7 @@ i {
   transform: translate(-50%, -50%);
   font-size: 5rem;
   color: aqua;
+  cursor: pointer;
 }
 
 /* =========
