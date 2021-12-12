@@ -114,8 +114,8 @@ About
   width: 100vw;
 } */
 .about-text {
-  /* margin: 0 2rem; */
-  width: 100;
+  margin: 0 2rem;
+  width: 100%;
 }
 .about-grid {
   width: 100%vw;
@@ -158,4 +158,7 @@ Contact
 }
 form {
   display: block;
+}
+.contact p {
+  margin: 0 2rem;
 }
